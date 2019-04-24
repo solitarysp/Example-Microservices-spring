@@ -16,3 +16,7 @@ server:
 spring:
     application:
         name: gallery-service
+management:
+    endpoint:
+        health:
+            show-details: always

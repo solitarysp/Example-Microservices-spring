@@ -21,3 +21,7 @@ zuul:
         image-service:
             path: /image-service/**
             service-id: image-service
+management:
+    endpoint:
+        health:
+            show-details: always
