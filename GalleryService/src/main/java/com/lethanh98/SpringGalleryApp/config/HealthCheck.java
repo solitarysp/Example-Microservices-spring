@@ -1,5 +1,6 @@
 package com.lethanh98.SpringGalleryApp.config;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.actuate.health.Health;
 import org.springframework.boot.actuate.health.HealthIndicator;
 import org.springframework.stereotype.Component;
@@ -7,7 +8,7 @@ import org.springframework.stereotype.Component;
 // @Component
 // cusotm health check
 public class HealthCheck implements HealthIndicator {
-
+    @Autowired
     @Override
     public Health health() {
         int errorCode = check(); // perform some specific health check

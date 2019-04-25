@@ -17,6 +17,9 @@ spring:
     application:
         name: gallery-service
 management:
-    endpoint:
-        health:
-            show-details: always
+    endpoints:
+        web:
+            base-path: /manage
+            exposure:
+              #  include: health,beans,info,caches,conditions,configprops,env,flyway,heapdump,httptrace,integrationgraph,liquibase,logfile,loggers,mappings,metrics
+                 include: '*'
