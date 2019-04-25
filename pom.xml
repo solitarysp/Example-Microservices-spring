@@ -12,6 +12,7 @@
         <module>GalleryService</module>
         <module>gateway</module>
         <module>ImageService</module>
+        <module>authenService</module>
     </modules>
     <build>
         <plugins>

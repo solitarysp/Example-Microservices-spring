@@ -19,8 +19,13 @@ zuul:
             path: /gallery/**
             service-id: gallery-service
         image-service:
-            path: /image-service/**
+            path: /image/**
             service-id: image-service
+        authen-service:
+            path: /authen/**
+            service-id: authen-service
+            strip-prefix: false
+            sensitive-headers : Cookie,Set-Cookie
      # set max connect
     semaphore:
         max-semaphores: 10000
