@@ -21,6 +21,9 @@ zuul:
         image-service:
             path: /image-service/**
             service-id: image-service
+     # set max connect
+    semaphore:
+        max-semaphores: 10000
 management:
     endpoint:
         health:
