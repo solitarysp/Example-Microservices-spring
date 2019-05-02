@@ -1,6 +1,6 @@
 package com.lethanh98.authen.config;
 
-import com.lethanh98.authen.config.entity.JwtConfig;
+import com.lethanh98.common.model.JwtConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpMethod;

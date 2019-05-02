@@ -1,5 +1,6 @@
 package com.lethanh98.gateway.config;
 
+import com.lethanh98.common.model.JwtConfig;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

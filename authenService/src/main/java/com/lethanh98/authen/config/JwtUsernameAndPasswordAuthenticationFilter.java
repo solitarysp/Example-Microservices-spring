@@ -1,9 +1,9 @@
 package com.lethanh98.authen.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.lethanh98.authen.config.entity.JwtConfig;
 import com.lethanh98.authen.config.entity.Token;
 import com.lethanh98.authen.config.entity.UserCredentials;
+import com.lethanh98.common.model.JwtConfig;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import org.springframework.beans.factory.annotation.Autowired;

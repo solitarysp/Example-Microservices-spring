@@ -1,5 +1,6 @@
 package com.lethanh98.gateway.config;
 
+import com.lethanh98.common.model.JwtConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpMethod;

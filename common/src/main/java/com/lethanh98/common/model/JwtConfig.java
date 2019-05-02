@@ -1,4 +1,4 @@
-package com.lethanh98.gateway.config;
+package com.lethanh98.common.model;
 
 import org.springframework.beans.factory.annotation.Value;
 
@@ -17,6 +17,9 @@ public class JwtConfig {
 
     @Value("${security.jwt.secret:JwtSecretKey}")
     private String secret;
+
+    public JwtConfig() {
+    }
 
     public String getUri() {
         return "/authen/**";

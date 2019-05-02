@@ -79,7 +79,11 @@
             <artifactId>jjwt</artifactId>
             <version>0.9.0</version>
         </dependency>
-
+        <dependency>
+            <groupId>com.lethanh98</groupId>
+            <artifactId>common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
     <dependencyManagement>
         <dependencies>

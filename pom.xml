@@ -13,6 +13,7 @@
         <module>gateway</module>
         <module>ImageService</module>
         <module>authenService</module>
+        <module>common</module>
     </modules>
     <build>
         <plugins>
