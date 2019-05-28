@@ -6,6 +6,7 @@
 
     <groupId>com.lethanh98</groupId>
     <artifactId>microservices</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>eurekaserver</module>
@@ -14,6 +15,7 @@
         <module>ImageService</module>
         <module>authenService</module>
         <module>common</module>
+        <module>config-service</module>
     </modules>
     <build>
         <plugins>
